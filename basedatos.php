@@ -1,10 +1,10 @@
 <?php
 function conectar_bd()
 {
-$servidor="localhost";
-$nombrebd="empresa";
-$usuario="prueba";
-$contrase="prueba123";
+$servidor="--";
+$nombrebd="--";
+$usuario="--";
+$contrase="--";
 
 $conexion=mysqli_connect($servidor,$usuario,$contrase)or die("Unable to connect to MySQL");
 if(!$conexion){
