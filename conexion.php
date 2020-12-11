@@ -1,10 +1,10 @@
 <?php
 $modo=$_SERVER['HTTP_HOST']; //localizamos el servidor
 if ($modo=="localhost") { //datos en servidor local
-    $servidor="localhost";
-    $usuario="prueba";
-    $contrasena="prueba123";
-    $base="empresa";
+    $servidor="--";
+    $usuario="--";
+    $contrasena="--";
+    $base="--";
     }
 else { //datos en servidor web
     $servidor="nombre_servidor_web"; 
