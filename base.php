@@ -1,9 +1,9 @@
 <?php
 
-$servidor="localhost";
-$usuario="prueba";
-$contrasenha="prueba123";
-$BD="empresa";
+$servidor="--";
+$usuario="--";
+$contrasenha="--";
+$BD="--";
 
 $conexion=@mysqli_connect($servidor,$usuario,$contrasenha);
 
