@@ -12,7 +12,7 @@ $resultado=verificarDatos($usuario,$contrase);
 
 
 function verificarDatos($Usuario,$contrase){
-	if($Usuario=="Administrador" && $Contrase="admin1234"){
+	if($Usuario=="--" && $Contrase="--"){
 		return true;
 	}
 	else {
