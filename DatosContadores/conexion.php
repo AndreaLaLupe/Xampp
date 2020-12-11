@@ -3,8 +3,8 @@ function conectar_bd()
 {
 $servidor="localhost";
 $nombrebd="lecturacontador";
-$usuario="root";
-$contrase="";
+$usuario="--";
+$contrase="--";
 
 $conexion=mysqli_connect($servidor,$usuario,$contrase)or die("Unable to connect to MySQL");
 if(!$conexion){
